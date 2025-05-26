@@ -1,0 +1,65 @@
+{
+ "Device" : "GW1NR-9C",
+ "Files" : [
+  {
+   "Path" : "C:/Users/ADMIN/Desktop/HK242/DA1/cnnverilog/src/bcd_to_7seg.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/ADMIN/Desktop/HK242/DA1/cnnverilog/src/bnorm.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/ADMIN/Desktop/HK242/DA1/cnnverilog/src/bsram.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/ADMIN/Desktop/HK242/DA1/cnnverilog/src/cnn.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/ADMIN/Desktop/HK242/DA1/cnnverilog/src/conv.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/ADMIN/Desktop/HK242/DA1/cnnverilog/src/datapath.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/ADMIN/Desktop/HK242/DA1/cnnverilog/src/fullyconnect.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/ADMIN/Desktop/HK242/DA1/cnnverilog/src/lcd.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/ADMIN/Desktop/HK242/DA1/cnnverilog/src/maxpool.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/ADMIN/Desktop/HK242/DA1/cnnverilog/src/uart_controller.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/ADMIN/Desktop/HK242/DA1/cnnverilog/src/uart_rx.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/cnn_fpga/src/gowin_rpll/gowin_rpll.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/cnn_fpga/src/gowin_sdpb/gowin_sdpb.v",
+   "Type" : "verilog"
+  }
+ ],
+ "IncludePath" : [
+
+ ],
+ "LoopLimit" : 2000,
+ "ResultFile" : "D:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/cnn_fpga/impl/temp/rtl_parser.result",
+ "Top" : "",
+ "VerilogStd" : "sysv",
+ "VhdlStd" : "vhdl_93"
+}

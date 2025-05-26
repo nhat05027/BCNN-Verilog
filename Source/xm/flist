@@ -1,0 +1,12 @@
+-sv
+-timescale 1ns/1ps
+./../src/bnorm.sv
+./../src/bsram.sv
+./../src/cnn.sv
+./../src/conv.sv
+./../src/datapath.sv
+./../src/fullyconnect.sv
+./../src/maxpool.sv
+
+./../tb/tb_cnn_data.sv
++xmtop+tb_cnn_data

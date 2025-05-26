@@ -1,0 +1,21 @@
+-series GW1NR
+-device GW1NR-9
+-device_version C
+-package QFN88P
+-part_number GW1NR-LV9QN88PC6/I5
+
+
+-mod_name Gowin_SDPB
+-file_name gowin_sdpb
+-path D:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/cnn_fpga/src/gowin_sdpb/
+-type RAM_SDP
+-file_type vlg
+-bram_b true
+-depth_0 784
+-depth_1 784
+-width_0 8
+-width_1 8
+-read_mode bypass
+-reset_mode sync
+-init_file C:/Users/ADMIN/Desktop/HK242/DA1/cnnverilog/test/test4.mi
+-init_match port_A

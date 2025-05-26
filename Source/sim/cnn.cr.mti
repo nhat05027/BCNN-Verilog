@@ -1,0 +1,104 @@
+C:/Users/ADMIN/Desktop/HK242/DA1/cnnverilog/src/datapath.sv {1 {vlog -work work -sv C:/Users/ADMIN/Desktop/HK242/DA1/cnnverilog/src/datapath.sv
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module datapath
+
+Top level modules:
+	datapath
+
+} {} {}} C:/Users/ADMIN/Desktop/HK242/DA1/cnnverilog/src/maxpool.sv {1 {vlog -work work -sv C:/Users/ADMIN/Desktop/HK242/DA1/cnnverilog/src/maxpool.sv
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module maxpool
+
+Top level modules:
+	maxpool
+
+} {} {}} C:/Users/ADMIN/Desktop/HK242/DA1/cnnverilog/tb/tb_conv.sv {2 {vlog -work work -sv C:/Users/ADMIN/Desktop/HK242/DA1/cnnverilog/tb/tb_conv.sv
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module tb_conv
+** Warning: C:/Users/ADMIN/Desktop/HK242/DA1/cnnverilog/tb/tb_conv.sv(141): (vlog-2186) SystemVerilog testbench feature
+
+(randomization, coverage or assertion) detected in the design.
+
+These features are only supported in Questasim.
+
+** Warning: C:/Users/ADMIN/Desktop/HK242/DA1/cnnverilog/tb/tb_conv.sv(141): (vlog-2186) SystemVerilog testbench feature
+
+(randomization, coverage or assertion) detected in the design.
+
+These features are only supported in Questasim.
+
+** Warning: C:/Users/ADMIN/Desktop/HK242/DA1/cnnverilog/tb/tb_conv.sv(145): (vlog-2186) SystemVerilog testbench feature
+
+(randomization, coverage or assertion) detected in the design.
+
+These features are only supported in Questasim.
+
+
+Top level modules:
+	tb_conv
+
+} {} {}} C:/Users/ADMIN/Desktop/HK242/DA1/cnnverilog/tb/tb_cnn.sv {1 {vlog -work work -sv C:/Users/ADMIN/Desktop/HK242/DA1/cnnverilog/tb/tb_cnn.sv
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module tb_cnn
+
+Top level modules:
+	tb_cnn
+
+} {} {}} C:/Users/ADMIN/Desktop/HK242/DA1/cnnverilog/tb/tb_cnn_data.sv {1 {vlog -work work -sv C:/Users/ADMIN/Desktop/HK242/DA1/cnnverilog/tb/tb_cnn_data.sv
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module tb_cnn_data
+
+Top level modules:
+	tb_cnn_data
+
+} {} {}} C:/Users/ADMIN/Desktop/HK242/DA1/cnnverilog/tb/tb_fc.sv {1 {vlog -work work -sv C:/Users/ADMIN/Desktop/HK242/DA1/cnnverilog/tb/tb_fc.sv
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module tb_FullyConnect
+
+Top level modules:
+	tb_FullyConnect
+
+} {} {}} C:/Users/ADMIN/Desktop/HK242/DA1/cnnverilog/src/cnn.sv {1 {vlog -work work -sv C:/Users/ADMIN/Desktop/HK242/DA1/cnnverilog/src/cnn.sv
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module cnn
+
+Top level modules:
+	cnn
+
+} {} {}} C:/Users/ADMIN/Desktop/HK242/DA1/cnnverilog/tb/tb_bnorm.sv {1 {vlog -work work -sv C:/Users/ADMIN/Desktop/HK242/DA1/cnnverilog/tb/tb_bnorm.sv
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module bnorm_tb
+
+Top level modules:
+	bnorm_tb
+
+} {} {}} C:/Users/ADMIN/Desktop/HK242/DA1/cnnverilog/tb/tb_maxpool.sv {1 {vlog -work work -sv C:/Users/ADMIN/Desktop/HK242/DA1/cnnverilog/tb/tb_maxpool.sv
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module maxpool_tb
+
+Top level modules:
+	maxpool_tb
+
+} {} {}} C:/Users/ADMIN/Desktop/HK242/DA1/cnnverilog/src/bsram.sv {1 {vlog -work work -sv C:/Users/ADMIN/Desktop/HK242/DA1/cnnverilog/src/bsram.sv
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module bsram
+
+Top level modules:
+	bsram
+
+} {} {}} C:/Users/ADMIN/Desktop/HK242/DA1/cnnverilog/src/conv.sv {1 {vlog -work work -sv C:/Users/ADMIN/Desktop/HK242/DA1/cnnverilog/src/conv.sv
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module SIPO19
+-- Compiling module conv
+
+Top level modules:
+	conv
+
+} {} {}} C:/Users/ADMIN/Desktop/HK242/DA1/cnnverilog/src/bnorm.sv {1 {vlog -work work -sv C:/Users/ADMIN/Desktop/HK242/DA1/cnnverilog/src/bnorm.sv
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module bnorm
+
+Top level modules:
+	bnorm
+
+} {} {}}

@@ -1,0 +1,26 @@
+<?xml version="1" encoding="UTF-8"?>
+<!DOCTYPE gowin-fpga-project>
+<Project>
+    <Template>FPGA</Template>
+    <Version>5</Version>
+    <Device name="GW1NR-9C" pn="GW1NR-LV9QN88PC6/I5">gw1nr9c-004</Device>
+    <FileList>
+        <File path="C:/Users/ADMIN/Desktop/HK242/DA1/cnnverilog/src/bcd_to_7seg.sv" type="file.verilog" enable="1"/>
+        <File path="C:/Users/ADMIN/Desktop/HK242/DA1/cnnverilog/src/bnorm.sv" type="file.verilog" enable="1"/>
+        <File path="C:/Users/ADMIN/Desktop/HK242/DA1/cnnverilog/src/bsram.sv" type="file.verilog" enable="1"/>
+        <File path="C:/Users/ADMIN/Desktop/HK242/DA1/cnnverilog/src/cnn.sv" type="file.verilog" enable="1"/>
+        <File path="C:/Users/ADMIN/Desktop/HK242/DA1/cnnverilog/src/conv.sv" type="file.verilog" enable="1"/>
+        <File path="C:/Users/ADMIN/Desktop/HK242/DA1/cnnverilog/src/datapath.sv" type="file.verilog" enable="1"/>
+        <File path="C:/Users/ADMIN/Desktop/HK242/DA1/cnnverilog/src/fullyconnect.sv" type="file.verilog" enable="1"/>
+        <File path="C:/Users/ADMIN/Desktop/HK242/DA1/cnnverilog/src/lcd.sv" type="file.verilog" enable="1"/>
+        <File path="C:/Users/ADMIN/Desktop/HK242/DA1/cnnverilog/src/maxpool.sv" type="file.verilog" enable="1"/>
+        <File path="C:/Users/ADMIN/Desktop/HK242/DA1/cnnverilog/src/uart_controller.sv" type="file.verilog" enable="1"/>
+        <File path="C:/Users/ADMIN/Desktop/HK242/DA1/cnnverilog/src/uart_rx.sv" type="file.verilog" enable="1"/>
+        <File path="C:/Users/ADMIN/Desktop/HK242/DA1/gowin_sp/gowin_sp.v" type="file.verilog" enable="0"/>
+        <File path="src/gowin_dpb/gowin_dpb.v" type="file.verilog" enable="0"/>
+        <File path="src/gowin_rpll/gowin_rpll.v" type="file.verilog" enable="1"/>
+        <File path="src/gowin_sdpb/gowin_sdpb.v" type="file.verilog" enable="1"/>
+        <File path="src/cnn_fpga.cst" type="file.cst" enable="1"/>
+        <File path="src/cnn_fpga.sdc" type="file.sdc" enable="1"/>
+    </FileList>
+</Project>

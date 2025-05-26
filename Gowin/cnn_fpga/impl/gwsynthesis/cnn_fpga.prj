@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE gowin-synthesis-project>
+<Project>
+    <Version>beta</Version>
+    <Device id="GW1NR-9C" package="QFN88P" speed="6" partNumber="GW1NR-LV9QN88PC6/I5"/>
+    <FileList>
+        <File path="C:\Users\ADMIN\Desktop\HK242\DA1\cnnverilog\src\bcd_to_7seg.sv" type="verilog"/>
+        <File path="C:\Users\ADMIN\Desktop\HK242\DA1\cnnverilog\src\bnorm.sv" type="verilog"/>
+        <File path="C:\Users\ADMIN\Desktop\HK242\DA1\cnnverilog\src\bsram.sv" type="verilog"/>
+        <File path="C:\Users\ADMIN\Desktop\HK242\DA1\cnnverilog\src\cnn.sv" type="verilog"/>
+        <File path="C:\Users\ADMIN\Desktop\HK242\DA1\cnnverilog\src\conv.sv" type="verilog"/>
+        <File path="C:\Users\ADMIN\Desktop\HK242\DA1\cnnverilog\src\datapath.sv" type="verilog"/>
+        <File path="C:\Users\ADMIN\Desktop\HK242\DA1\cnnverilog\src\fullyconnect.sv" type="verilog"/>
+        <File path="C:\Users\ADMIN\Desktop\HK242\DA1\cnnverilog\src\lcd.sv" type="verilog"/>
+        <File path="C:\Users\ADMIN\Desktop\HK242\DA1\cnnverilog\src\maxpool.sv" type="verilog"/>
+        <File path="C:\Users\ADMIN\Desktop\HK242\DA1\cnnverilog\src\uart_controller.sv" type="verilog"/>
+        <File path="C:\Users\ADMIN\Desktop\HK242\DA1\cnnverilog\src\uart_rx.sv" type="verilog"/>
+        <File path="D:\Gowin\Gowin_V1.9.10.03_Education_x64\IDE\bin\Documents\cnn_fpga\src\gowin_rpll\gowin_rpll.v" type="verilog"/>
+        <File path="D:\Gowin\Gowin_V1.9.10.03_Education_x64\IDE\bin\Documents\cnn_fpga\src\gowin_sdpb\gowin_sdpb.v" type="verilog"/>
+    </FileList>
+    <OptionList>
+        <Option type="disable_insert_pad" value="0"/>
+        <Option type="global_freq" value="50.000"/>
+        <Option type="looplimit" value="2000"/>
+        <Option type="output_file" value="D:\Gowin\Gowin_V1.9.10.03_Education_x64\IDE\bin\Documents\cnn_fpga\impl\gwsynthesis\cnn_fpga.vg"/>
+        <Option type="print_all_synthesis_warning" value="0"/>
+        <Option type="ram_rw_check" value="0"/>
+        <Option type="vcc" value="1.2"/>
+        <Option type="vccx" value="3.3"/>
+        <Option type="verilog_language" value="sysv-2017"/>
+        <Option type="vhdl_language" value="vhdl-1993"/>
+    </OptionList>
+</Project>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module name="uart_controller" Register="30" Lut="242" T_Register="519(30)" T_Alu="1446(0)" T_Lut="1841(242)" T_MULT18X18="8(0)" T_MULTADDALU18X18="6(0)" T_Bsram="20(0)" T_Ssram="3(0)">
+ <SubModule name="rpll"/>
+ <SubModule name="receiver" Register="38" Lut="59" T_Register="38(38)" T_Lut="59(59)"/>
+ <SubModule name="lcd" Register="60" Lut="120" MULTADDALU18X18="1" T_Register="60(60)" T_Lut="120(120)" T_MULTADDALU18X18="1(1)"/>
+ <SubModule name="lcd_ram" Bsram="1" T_Bsram="1(1)"/>
+ <SubModule name="cnn_ram" Bsram="1" T_Bsram="1(1)"/>
+ <SubModule name="dut" Register="87" Alu="417" Lut="675" MULTADDALU18X18="5" T_Register="391(87)" T_Alu="1446(417)" T_Lut="1413(675)" T_MULT18X18="8(0)" T_MULTADDALU18X18="5(5)" T_Bsram="18(0)" T_Ssram="3(0)">
+  <SubModule name="DP" Register="16" Alu="144" Lut="23" Bsram="6" T_Register="304(16)" T_Alu="1029(144)" T_Lut="738(23)" T_MULT18X18="8(0)" T_Bsram="18(6)" T_Ssram="3(0)">
+   <SubModule name="C" Register="6" Lut="158" T_Register="105(6)" T_Lut="173(158)" T_Ssram="3(0)">
+    <SubModule name="[0].F" Register="11" Lut="4" Ssram="3" T_Register="11(11)" T_Lut="4(4)" T_Ssram="3(3)"/>
+    <SubModule name="[1].F" Register="8" Lut="1" T_Register="8(8)" T_Lut="1(1)"/>
+    <SubModule name="[2].F" Register="8" Lut="1" T_Register="8(8)" T_Lut="1(1)"/>
+    <SubModule name="[3].F" Register="8" Lut="1" T_Register="8(8)" T_Lut="1(1)"/>
+    <SubModule name="[4].F" Register="8" Lut="1" T_Register="8(8)" T_Lut="1(1)"/>
+    <SubModule name="[5].F" Register="8" Lut="1" T_Register="8(8)" T_Lut="1(1)"/>
+    <SubModule name="[6].F" Register="8" Lut="1" T_Register="8(8)" T_Lut="1(1)"/>
+    <SubModule name="[7].F" Register="8" Lut="1" T_Register="8(8)" T_Lut="1(1)"/>
+    <SubModule name="[8].F" Register="8" Lut="1" T_Register="8(8)" T_Lut="1(1)"/>
+    <SubModule name="[9].F" Register="8" Lut="1" T_Register="8(8)" T_Lut="1(1)"/>
+    <SubModule name="[10].F" Register="8" Lut="1" T_Register="8(8)" T_Lut="1(1)"/>
+    <SubModule name="[11].F" Register="8" Lut="1" T_Register="8(8)" T_Lut="1(1)"/>
+   </SubModule>
+   <SubModule name="B" Register="1" Alu="12" MULT18X18="1" T_Register="1(1)" T_Alu="12(12)" T_MULT18X18="1(1)"/>
+   <SubModule name="M" Register="14" Alu="12" Lut="2" T_Register="14(14)" T_Alu="12(12)" T_Lut="2(2)"/>
+   <SubModule name="R" Bsram="12" T_Bsram="12(12)"/>
+   <SubModule name="FC" Register="168" Alu="861" Lut="540" MULT18X18="7" T_Register="168(168)" T_Alu="861(861)" T_Lut="540(540)" T_MULT18X18="7(7)"/>
+  </SubModule>
+ </SubModule>
+ <SubModule name="b7s" Lut="7" T_Lut="7(7)"/>
+</Module>

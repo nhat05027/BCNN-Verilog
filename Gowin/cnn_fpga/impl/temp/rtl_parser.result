@@ -1,0 +1,218 @@
+[
+ {
+  "InstFile" : "C:/Users/ADMIN/Desktop/HK242/DA1/cnnverilog/src/uart_controller.sv",
+  "InstLine" : 1,
+  "InstName" : "uart_controller",
+  "ModuleFile" : "C:/Users/ADMIN/Desktop/HK242/DA1/cnnverilog/src/uart_controller.sv",
+  "ModuleLine" : 1,
+  "ModuleName" : "uart_controller",
+  "SubInsts" : [
+   {
+    "InstFile" : "C:/Users/ADMIN/Desktop/HK242/DA1/cnnverilog/src/uart_controller.sv",
+    "InstLine" : 24,
+    "InstName" : "rpll",
+    "ModuleFile" : "D:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/cnn_fpga/src/gowin_rpll/gowin_rpll.v",
+    "ModuleLine" : 10,
+    "ModuleName" : "Gowin_rPLL"
+   },
+   {
+    "InstFile" : "C:/Users/ADMIN/Desktop/HK242/DA1/cnnverilog/src/uart_controller.sv",
+    "InstLine" : 46,
+    "InstName" : "receiver",
+    "ModuleFile" : "C:/Users/ADMIN/Desktop/HK242/DA1/cnnverilog/src/uart_rx.sv",
+    "ModuleLine" : 2,
+    "ModuleName" : "uart_rx"
+   },
+   {
+    "InstFile" : "C:/Users/ADMIN/Desktop/HK242/DA1/cnnverilog/src/uart_controller.sv",
+    "InstLine" : 57,
+    "InstName" : "lcd",
+    "ModuleFile" : "C:/Users/ADMIN/Desktop/HK242/DA1/cnnverilog/src/lcd.sv",
+    "ModuleLine" : 1,
+    "ModuleName" : "VGA_timing"
+   },
+   {
+    "InstFile" : "C:/Users/ADMIN/Desktop/HK242/DA1/cnnverilog/src/uart_controller.sv",
+    "InstLine" : 75,
+    "InstName" : "lcd_ram",
+    "ModuleFile" : "D:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/cnn_fpga/src/gowin_sdpb/gowin_sdpb.v",
+    "ModuleLine" : 10,
+    "ModuleName" : "Gowin_SDPB"
+   },
+   {
+    "InstFile" : "C:/Users/ADMIN/Desktop/HK242/DA1/cnnverilog/src/uart_controller.sv",
+    "InstLine" : 89,
+    "InstName" : "cnn_ram",
+    "ModuleFile" : "D:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/cnn_fpga/src/gowin_sdpb/gowin_sdpb.v",
+    "ModuleLine" : 10,
+    "ModuleName" : "Gowin_SDPB"
+   },
+   {
+    "InstFile" : "C:/Users/ADMIN/Desktop/HK242/DA1/cnnverilog/src/uart_controller.sv",
+    "InstLine" : 125,
+    "InstName" : "dut",
+    "ModuleFile" : "C:/Users/ADMIN/Desktop/HK242/DA1/cnnverilog/src/cnn.sv",
+    "ModuleLine" : 1,
+    "ModuleName" : "cnn",
+    "SubInsts" : [
+     {
+      "InstFile" : "C:/Users/ADMIN/Desktop/HK242/DA1/cnnverilog/src/cnn.sv",
+      "InstLine" : 34,
+      "InstName" : "DP",
+      "ModuleFile" : "C:/Users/ADMIN/Desktop/HK242/DA1/cnnverilog/src/datapath.sv",
+      "ModuleLine" : 6,
+      "ModuleName" : "datapath",
+      "SubInsts" : [
+       {
+        "InstFile" : "C:/Users/ADMIN/Desktop/HK242/DA1/cnnverilog/src/datapath.sv",
+        "InstLine" : 48,
+        "InstName" : "C",
+        "ModuleFile" : "C:/Users/ADMIN/Desktop/HK242/DA1/cnnverilog/src/conv.sv",
+        "ModuleLine" : 23,
+        "ModuleName" : "conv",
+        "SubInsts" : [
+         {
+          "InstFile" : "C:/Users/ADMIN/Desktop/HK242/DA1/cnnverilog/src/conv.sv",
+          "InstLine" : 50,
+          "InstName" : "[0].F",
+          "ModuleFile" : "C:/Users/ADMIN/Desktop/HK242/DA1/cnnverilog/src/conv.sv",
+          "ModuleLine" : 1,
+          "ModuleName" : "SIPO19"
+         },
+         {
+          "InstFile" : "C:/Users/ADMIN/Desktop/HK242/DA1/cnnverilog/src/conv.sv",
+          "InstLine" : 50,
+          "InstName" : "[1].F",
+          "ModuleFile" : "C:/Users/ADMIN/Desktop/HK242/DA1/cnnverilog/src/conv.sv",
+          "ModuleLine" : 1,
+          "ModuleName" : "SIPO19"
+         },
+         {
+          "InstFile" : "C:/Users/ADMIN/Desktop/HK242/DA1/cnnverilog/src/conv.sv",
+          "InstLine" : 50,
+          "InstName" : "[2].F",
+          "ModuleFile" : "C:/Users/ADMIN/Desktop/HK242/DA1/cnnverilog/src/conv.sv",
+          "ModuleLine" : 1,
+          "ModuleName" : "SIPO19"
+         },
+         {
+          "InstFile" : "C:/Users/ADMIN/Desktop/HK242/DA1/cnnverilog/src/conv.sv",
+          "InstLine" : 50,
+          "InstName" : "[3].F",
+          "ModuleFile" : "C:/Users/ADMIN/Desktop/HK242/DA1/cnnverilog/src/conv.sv",
+          "ModuleLine" : 1,
+          "ModuleName" : "SIPO19"
+         },
+         {
+          "InstFile" : "C:/Users/ADMIN/Desktop/HK242/DA1/cnnverilog/src/conv.sv",
+          "InstLine" : 50,
+          "InstName" : "[4].F",
+          "ModuleFile" : "C:/Users/ADMIN/Desktop/HK242/DA1/cnnverilog/src/conv.sv",
+          "ModuleLine" : 1,
+          "ModuleName" : "SIPO19"
+         },
+         {
+          "InstFile" : "C:/Users/ADMIN/Desktop/HK242/DA1/cnnverilog/src/conv.sv",
+          "InstLine" : 50,
+          "InstName" : "[5].F",
+          "ModuleFile" : "C:/Users/ADMIN/Desktop/HK242/DA1/cnnverilog/src/conv.sv",
+          "ModuleLine" : 1,
+          "ModuleName" : "SIPO19"
+         },
+         {
+          "InstFile" : "C:/Users/ADMIN/Desktop/HK242/DA1/cnnverilog/src/conv.sv",
+          "InstLine" : 50,
+          "InstName" : "[6].F",
+          "ModuleFile" : "C:/Users/ADMIN/Desktop/HK242/DA1/cnnverilog/src/conv.sv",
+          "ModuleLine" : 1,
+          "ModuleName" : "SIPO19"
+         },
+         {
+          "InstFile" : "C:/Users/ADMIN/Desktop/HK242/DA1/cnnverilog/src/conv.sv",
+          "InstLine" : 50,
+          "InstName" : "[7].F",
+          "ModuleFile" : "C:/Users/ADMIN/Desktop/HK242/DA1/cnnverilog/src/conv.sv",
+          "ModuleLine" : 1,
+          "ModuleName" : "SIPO19"
+         },
+         {
+          "InstFile" : "C:/Users/ADMIN/Desktop/HK242/DA1/cnnverilog/src/conv.sv",
+          "InstLine" : 50,
+          "InstName" : "[8].F",
+          "ModuleFile" : "C:/Users/ADMIN/Desktop/HK242/DA1/cnnverilog/src/conv.sv",
+          "ModuleLine" : 1,
+          "ModuleName" : "SIPO19"
+         },
+         {
+          "InstFile" : "C:/Users/ADMIN/Desktop/HK242/DA1/cnnverilog/src/conv.sv",
+          "InstLine" : 50,
+          "InstName" : "[9].F",
+          "ModuleFile" : "C:/Users/ADMIN/Desktop/HK242/DA1/cnnverilog/src/conv.sv",
+          "ModuleLine" : 1,
+          "ModuleName" : "SIPO19"
+         },
+         {
+          "InstFile" : "C:/Users/ADMIN/Desktop/HK242/DA1/cnnverilog/src/conv.sv",
+          "InstLine" : 50,
+          "InstName" : "[10].F",
+          "ModuleFile" : "C:/Users/ADMIN/Desktop/HK242/DA1/cnnverilog/src/conv.sv",
+          "ModuleLine" : 1,
+          "ModuleName" : "SIPO19"
+         },
+         {
+          "InstFile" : "C:/Users/ADMIN/Desktop/HK242/DA1/cnnverilog/src/conv.sv",
+          "InstLine" : 50,
+          "InstName" : "[11].F",
+          "ModuleFile" : "C:/Users/ADMIN/Desktop/HK242/DA1/cnnverilog/src/conv.sv",
+          "ModuleLine" : 1,
+          "ModuleName" : "SIPO19"
+         }
+        ]
+       },
+       {
+        "InstFile" : "C:/Users/ADMIN/Desktop/HK242/DA1/cnnverilog/src/datapath.sv",
+        "InstLine" : 74,
+        "InstName" : "B",
+        "ModuleFile" : "C:/Users/ADMIN/Desktop/HK242/DA1/cnnverilog/src/bnorm.sv",
+        "ModuleLine" : 2,
+        "ModuleName" : "bnorm"
+       },
+       {
+        "InstFile" : "C:/Users/ADMIN/Desktop/HK242/DA1/cnnverilog/src/datapath.sv",
+        "InstLine" : 86,
+        "InstName" : "M",
+        "ModuleFile" : "C:/Users/ADMIN/Desktop/HK242/DA1/cnnverilog/src/maxpool.sv",
+        "ModuleLine" : 1,
+        "ModuleName" : "maxpool"
+       },
+       {
+        "InstFile" : "C:/Users/ADMIN/Desktop/HK242/DA1/cnnverilog/src/datapath.sv",
+        "InstLine" : 97,
+        "InstName" : "R",
+        "ModuleFile" : "C:/Users/ADMIN/Desktop/HK242/DA1/cnnverilog/src/bsram.sv",
+        "ModuleLine" : 1,
+        "ModuleName" : "bsram"
+       },
+       {
+        "InstFile" : "C:/Users/ADMIN/Desktop/HK242/DA1/cnnverilog/src/datapath.sv",
+        "InstLine" : 115,
+        "InstName" : "FC",
+        "ModuleFile" : "C:/Users/ADMIN/Desktop/HK242/DA1/cnnverilog/src/fullyconnect.sv",
+        "ModuleLine" : 24,
+        "ModuleName" : "fullyconnect"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "InstFile" : "C:/Users/ADMIN/Desktop/HK242/DA1/cnnverilog/src/uart_controller.sv",
+    "InstLine" : 136,
+    "InstName" : "b7s",
+    "ModuleFile" : "C:/Users/ADMIN/Desktop/HK242/DA1/cnnverilog/src/bcd_to_7seg.sv",
+    "ModuleLine" : 1,
+    "ModuleName" : "bcd_to_7seg"
+   }
+  ]
+ }
+]

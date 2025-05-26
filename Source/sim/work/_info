@@ -1,0 +1,338 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\ADMIN\Desktop\HK242\CTMT\MILESTONE2\sim
+vbnorm
+Z1 DXx6 sv_std 3 std 0 22 F[19LRNL:5;XmIFh[XOPn1
+Z2 !s100 i55<fD:fY2jF?9W4J4YQ<3
+Z3 Idm299D?e=D20FLEOP9l`70
+Z4 VloOiViW_6F5SX?FB32Gne0
+Z5 !s105 bnorm_sv_unit
+S1
+Z6 dC:\Users\ADMIN\Desktop\HK242\DA1\cnnverilog\sim
+Z7 w1742740180
+Z8 8C:/Users/ADMIN/Desktop/HK242/DA1/cnnverilog/src/bnorm.sv
+Z9 FC:/Users/ADMIN/Desktop/HK242/DA1/cnnverilog/src/bnorm.sv
+L0 2
+Z10 OV;L;10.1d;51
+r1
+31
+Z11 !s90 -reportprogress|300|-work|work|-sv|C:/Users/ADMIN/Desktop/HK242/DA1/cnnverilog/src/bnorm.sv|
+Z12 o-work work -sv -O0
+Z13 !s108 1745598200.395000
+Z14 !s107 C:/Users/ADMIN/Desktop/HK242/DA1/cnnverilog/src/bnorm.sv|
+!i10b 1
+!s85 0
+!s101 -O0
+vbnorm_tb
+R1
+Z15 !s100 nMMCk?HaZCl65]YcKj32z0
+Z16 I2OUV;fUJKOZNf46@Z02Mc1
+Z17 VUD1@ln`97@76W6oVm_gXO3
+Z18 !s105 tb_bnorm_sv_unit
+S1
+R6
+Z19 w1744956266
+Z20 8C:/Users/ADMIN/Desktop/HK242/DA1/cnnverilog/tb/tb_bnorm.sv
+Z21 FC:/Users/ADMIN/Desktop/HK242/DA1/cnnverilog/tb/tb_bnorm.sv
+L0 3
+R10
+r1
+31
+Z22 !s90 -reportprogress|300|-work|work|-sv|C:/Users/ADMIN/Desktop/HK242/DA1/cnnverilog/tb/tb_bnorm.sv|
+R12
+Z23 !s108 1745598200.933000
+Z24 !s107 C:/Users/ADMIN/Desktop/HK242/DA1/cnnverilog/tb/tb_bnorm.sv|
+!i10b 1
+!s85 0
+!s101 -O0
+vbsram
+R1
+Z25 !s100 ]Y?89KP:=gK29Y86k^Iei2
+Z26 IckUFMUYf5:LboVM@RRaG82
+Z27 V1;2lld]n1L7=KGiADzzkj3
+Z28 !s105 bsram_sv_unit
+S1
+R6
+Z29 w1745598198
+Z30 8C:/Users/ADMIN/Desktop/HK242/DA1/cnnverilog/src/bsram.sv
+Z31 FC:/Users/ADMIN/Desktop/HK242/DA1/cnnverilog/src/bsram.sv
+L0 1
+R10
+r1
+31
+Z32 !s90 -reportprogress|300|-work|work|-sv|C:/Users/ADMIN/Desktop/HK242/DA1/cnnverilog/src/bsram.sv|
+R12
+Z33 !s108 1745598200.446000
+Z34 !s107 C:/Users/ADMIN/Desktop/HK242/DA1/cnnverilog/src/bsram.sv|
+!i10b 1
+!s85 0
+!s101 -O0
+vcnn
+R1
+Z35 IZnS=c8NmOV[aHF7:e91nl0
+Z36 VZejl8VoTZ[X[mdLJThEHP1
+Z37 !s105 cnn_sv_unit
+S1
+R6
+Z38 w1745597882
+Z39 8C:/Users/ADMIN/Desktop/HK242/DA1/cnnverilog/src/cnn.sv
+Z40 FC:/Users/ADMIN/Desktop/HK242/DA1/cnnverilog/src/cnn.sv
+L0 1
+R10
+r1
+31
+Z41 !s90 -reportprogress|300|-work|work|-sv|C:/Users/ADMIN/Desktop/HK242/DA1/cnnverilog/src/cnn.sv|
+R12
+Z42 !s100 B8=3iM9QW4Vl@TnVAUHJi0
+Z43 !s108 1745598200.511000
+Z44 !s107 C:/Users/ADMIN/Desktop/HK242/DA1/cnnverilog/src/cnn.sv|
+!i10b 1
+!s85 0
+!s101 -O0
+vconv
+R1
+Z45 !s100 AckEk?7Z2QQf@X_ZV>QO43
+Z46 I<eiec@P4jWc:jKM?<E]=53
+Z47 VAlQ]L2DLO1QH[G=bDLCgD0
+Z48 !s105 conv_sv_unit
+S1
+R6
+Z49 w1744869876
+Z50 8C:/Users/ADMIN/Desktop/HK242/DA1/cnnverilog/src/conv.sv
+Z51 FC:/Users/ADMIN/Desktop/HK242/DA1/cnnverilog/src/conv.sv
+L0 23
+R10
+r1
+31
+Z52 !s108 1745598200.566000
+Z53 !s107 C:/Users/ADMIN/Desktop/HK242/DA1/cnnverilog/src/conv.sv|
+Z54 !s90 -reportprogress|300|-work|work|-sv|C:/Users/ADMIN/Desktop/HK242/DA1/cnnverilog/src/conv.sv|
+R12
+!i10b 1
+!s85 0
+!s101 -O0
+vdatapath
+R1
+Z55 I;l84jgLIg8f`HZWfFdhn<2
+Z56 Va_1M?e7CNFa]To8TA;15U1
+Z57 !s105 datapath_sv_unit
+S1
+R6
+Z58 w1745597840
+Z59 8C:/Users/ADMIN/Desktop/HK242/DA1/cnnverilog/src/datapath.sv
+Z60 FC:/Users/ADMIN/Desktop/HK242/DA1/cnnverilog/src/datapath.sv
+L0 6
+R10
+r1
+31
+Z61 !s90 -reportprogress|300|-work|work|-sv|C:/Users/ADMIN/Desktop/HK242/DA1/cnnverilog/src/datapath.sv|
+R12
+Z62 !s100 @IjgF2Y9>>L8P?fRKbIoF3
+Z63 !s108 1745598200.625000
+Z64 !s107 C:/Users/ADMIN/Desktop/HK242/DA1/cnnverilog/src/datapath.sv|
+!i10b 1
+!s85 0
+!s101 -O0
+vfullyconnect
+R1
+Z65 !s100 o19;;9G2jR1X[ncY43I[@3
+Z66 IdzgeBjLPHjYbcG8J@DCmH1
+Z67 Vnc?U2j5=TcZjG>BkC__3N3
+Z68 !s105 fullyconnect_sv_unit
+S1
+R6
+Z69 w1745597246
+Z70 8C:/Users/ADMIN/Desktop/HK242/DA1/cnnverilog/src/fullyconnect.sv
+Z71 FC:/Users/ADMIN/Desktop/HK242/DA1/cnnverilog/src/fullyconnect.sv
+L0 24
+R10
+r1
+31
+Z72 !s90 -reportprogress|300|-work|work|-sv|C:/Users/ADMIN/Desktop/HK242/DA1/cnnverilog/src/fullyconnect.sv|
+R12
+Z73 !s108 1745598200.677000
+Z74 !s107 C:/Users/ADMIN/Desktop/HK242/DA1/cnnverilog/src/fullyconnect.sv|
+!i10b 1
+!s85 0
+!s101 -O0
+vmaxpool
+R1
+Z75 !s100 Cn<X;EU[k5X8C_XJ7<PF11
+Z76 I6T[6QG?:JV2SPn;EPn]Y11
+Z77 Vz?VQlW`XZR:M[97Ddje1=0
+Z78 !s105 maxpool_sv_unit
+S1
+R6
+Z79 w1744706934
+Z80 8C:/Users/ADMIN/Desktop/HK242/DA1/cnnverilog/src/maxpool.sv
+Z81 FC:/Users/ADMIN/Desktop/HK242/DA1/cnnverilog/src/maxpool.sv
+L0 1
+R10
+r1
+31
+Z82 !s90 -reportprogress|300|-work|work|-sv|C:/Users/ADMIN/Desktop/HK242/DA1/cnnverilog/src/maxpool.sv|
+R12
+Z83 !s108 1745598200.729000
+Z84 !s107 C:/Users/ADMIN/Desktop/HK242/DA1/cnnverilog/src/maxpool.sv|
+!i10b 1
+!s85 0
+!s101 -O0
+vmaxpool_tb
+R1
+Z85 !s100 5Jn`TcjeI^GkenKSaLKf>0
+Z86 IWfkKKzA686oA_UfD``4@A0
+Z87 VE<`?5z?:z]gMKc6KFOV3P0
+Z88 !s105 tb_maxpool_sv_unit
+S1
+R6
+Z89 w1744959597
+Z90 8C:/Users/ADMIN/Desktop/HK242/DA1/cnnverilog/tb/tb_maxpool.sv
+Z91 FC:/Users/ADMIN/Desktop/HK242/DA1/cnnverilog/tb/tb_maxpool.sv
+L0 3
+R10
+r1
+31
+Z92 !s90 -reportprogress|300|-work|work|-sv|C:/Users/ADMIN/Desktop/HK242/DA1/cnnverilog/tb/tb_maxpool.sv|
+R12
+!i10b 1
+!s85 0
+Z93 !s108 1745598200.987000
+Z94 !s107 C:/Users/ADMIN/Desktop/HK242/DA1/cnnverilog/tb/tb_maxpool.sv|
+!s101 -O0
+vSIPO110
+R1
+Z95 !s100 ?bVWaWhlRQXzHbgQ;4^ig0
+Z96 I[]_DgLiJll_aJKo3[J4OR3
+Z97 V3Pzg@<f5STJZ6Aj?fYIY32
+R68
+S1
+R6
+Z98 w1744963087
+R70
+R71
+L0 3
+R10
+r1
+31
+Z99 !s108 1744963883.634000
+R74
+R72
+R12
+Z100 n@s@i@p@o110
+!i10b 1
+!s85 0
+!s101 -O0
+vSIPO19
+R1
+Z101 !s100 I_^nhnHHYTcM^[_A;VCR22
+Z102 I8KH3hO9`GmC>gG]HVQ8[Z3
+Z103 VSShP5k6W0UK`IhBOl8NCT3
+R48
+S1
+R6
+R49
+R50
+R51
+L0 1
+R10
+r1
+31
+R52
+R53
+R54
+R12
+Z104 n@s@i@p@o19
+!i10b 1
+!s85 0
+!s101 -O0
+vtb_cnn
+R1
+Z105 !s100 lOEQR7FXE^IMf;Wojh;=P2
+Z106 I3YDMVfzVoTmzdLidL]L:_0
+Z107 VIdQV5TX`ceCQSE6DY_f]41
+Z108 !s105 tb_cnn_sv_unit
+S1
+R6
+Z109 w1744734921
+Z110 8C:/Users/ADMIN/Desktop/HK242/DA1/cnnverilog/tb/tb_cnn.sv
+Z111 FC:/Users/ADMIN/Desktop/HK242/DA1/cnnverilog/tb/tb_cnn.sv
+L0 1
+R10
+r1
+31
+Z112 !s90 -reportprogress|300|-work|work|-sv|C:/Users/ADMIN/Desktop/HK242/DA1/cnnverilog/tb/tb_cnn.sv|
+R12
+Z113 !s108 1745598200.779000
+Z114 !s107 C:/Users/ADMIN/Desktop/HK242/DA1/cnnverilog/tb/tb_cnn.sv|
+!i10b 1
+!s85 0
+!s101 -O0
+vtb_cnn_data
+R1
+Z115 !s100 BbcZ7dLCa<KeRZV9=6]4H3
+Z116 IJ2Qj5@cH?4S0fYH;EVJ^c0
+Z117 V0zFB7B^K5UR2QhlfXE9Ba2
+Z118 !s105 tb_cnn_data_sv_unit
+S1
+R6
+Z119 w1744794739
+Z120 8C:/Users/ADMIN/Desktop/HK242/DA1/cnnverilog/tb/tb_cnn_data.sv
+Z121 FC:/Users/ADMIN/Desktop/HK242/DA1/cnnverilog/tb/tb_cnn_data.sv
+L0 4
+R10
+r1
+31
+Z122 !s90 -reportprogress|300|-work|work|-sv|C:/Users/ADMIN/Desktop/HK242/DA1/cnnverilog/tb/tb_cnn_data.sv|
+R12
+Z123 !s108 1745598200.828000
+Z124 !s107 C:/Users/ADMIN/Desktop/HK242/DA1/cnnverilog/tb/tb_cnn_data.sv|
+!i10b 1
+!s85 0
+!s101 -O0
+vtb_conv
+R1
+Z125 !s100 g>YX[SAlOQQb=^`W1E@;J1
+Z126 I3i[TRC0L3X4<O2<6EfXen3
+Z127 VZa6Id@<=SNJOUPA8RF4z20
+Z128 !s105 tb_conv_sv_unit
+S1
+R6
+Z129 w1744950328
+Z130 8C:/Users/ADMIN/Desktop/HK242/DA1/cnnverilog/tb/tb_conv.sv
+Z131 FC:/Users/ADMIN/Desktop/HK242/DA1/cnnverilog/tb/tb_conv.sv
+L0 3
+R10
+r1
+31
+Z132 !s90 -reportprogress|300|-work|work|-sv|C:/Users/ADMIN/Desktop/HK242/DA1/cnnverilog/tb/tb_conv.sv|
+R12
+Z133 !s108 1745598200.881000
+Z134 !s107 C:/Users/ADMIN/Desktop/HK242/DA1/cnnverilog/tb/tb_conv.sv|
+!i10b 1
+!s85 0
+!s101 -O0
+vtb_FullyConnect
+R1
+!i10b 1
+Z135 !s100 D2lS<BzFVZCB<je2AYWTE3
+Z136 IL9`?e?Rhl>oJV:8Tf;[9X3
+Z137 VDkPEXoITbFQhz[mDgh]YH2
+Z138 !s105 tb_fc_sv_unit
+S1
+R6
+Z139 w1744963878
+Z140 8C:/Users/ADMIN/Desktop/HK242/DA1/cnnverilog/tb/tb_fc.sv
+Z141 FC:/Users/ADMIN/Desktop/HK242/DA1/cnnverilog/tb/tb_fc.sv
+L0 2
+R10
+r1
+!s85 0
+31
+!s108 1745598201.042000
+!s107 C:/Users/ADMIN/Desktop/HK242/DA1/cnnverilog/tb/tb_fc.sv|
+Z142 !s90 -reportprogress|300|-work|work|-sv|C:/Users/ADMIN/Desktop/HK242/DA1/cnnverilog/tb/tb_fc.sv|
+!s101 -O0
+R12
+Z143 ntb_@fully@connect
