@@ -1,0 +1,4 @@
+[ZoneTransfer]
+ZoneId=3
+ReferrerUrl=https://github.com/mnielsen/neural-networks-and-deep-learning/blob/master/data/mnist.pkl.gz
+HostUrl=https://raw.githubusercontent.com/mnielsen/neural-networks-and-deep-learning/master/data/mnist.pkl.gz

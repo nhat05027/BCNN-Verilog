@@ -1,0 +1,90 @@
+\section{GIỚI THIỆU ĐỀ TÀI}
+Nhận diện chữ số viết tay (Handwritten Digit Recognition) là bài toán cơ bản trong lĩnh vực thị giác máy tính và học máy, với ứng dụng rộng rãi từ tự động hóa bưu chính đến nhập liệu thông minh. Đề tài này tập trung triển khai hệ thống nhận diện trên phần cứng FPGA (Field-Programmable Gate Array), nhằm tối ưu tốc độ xử lý, tiết kiệm năng lượng và đảm bảo độ chính xác cao.
+
+\subsection{Tổng quan}
+\subsubsection{Bối cảnh nghiên cứu}
+\begin{itemize}
+    \item \textbf{Nhu cầu thực tế:} Ứng dụng nhận diện chữ số viết tay ngày càng phổ biến trong các hệ thống tự động hóa (ví dụ: phân loại bưu kiện, đọc biên lai điện tử).
+    \item \textbf{Hạn chế của phần mềm truyền thống:} Các giải pháp dựa trên CPU/GPU tiêu tốn năng lượng và có độ trễ cao trong môi trường thời gian thực.
+    \item \textbf{Ưu thế của FPGA:} Khả năng xử lý song song, tiết kiệm điện năng (~1/10 so với GPU) và độ linh hoạt trong thiết kế phần cứng.
+\end{itemize}
+
+\subsubsection{Mục tiêu đề tài}
+\begin{itemize}
+    \item Xây dựng hệ thống nhận diện chữ số viết tay độ chính xác >90\% trên bộ dữ liệu MNIST.
+    \item Tối ưu tài nguyên FPGA (Logic Cells, BSRAM) để triển khai mô hình AI với độ trễ <100ms.
+    \item Phát triển phần cứng tích hợp các ngoại vi để nhận diện số viết tay.
+\end{itemize}
+
+\subsection{Phương pháp tiếp cận}
+
+\begin{itemize}
+    \item \textbf{Dữ liệu:} Sử dụng bộ MNIST làm cơ sở.
+    \item \textbf{Mô hình:} Tối ưu hóa kiến trúc mạng neural, xây dựng mô hình dựa theo AlexNet và LeNet kết hợp với kiến trúc CNN binary-weight để giảm lương tài nguyên sử dụng trên fpga.
+    \item \textbf{Công cụ:} Thư viện Tensorflow và Keras để tạo mô hình AI, ModelSim và Xcellium để giả lập thiết kế. Quartus hoặc Gowin để synthesis thiết kế phần cứng và nạp lên kit.
+\end{itemize}
+
+\subsection{Ứng dụng mở rộng}
+\subsubsection{Lĩnh vực tiềm năng}
+\begin{itemize}
+    \item \textbf{Y tế:} Đọc chỉ số thiết bị đo tự động (máy ECG, máy xét nghiệm).
+    \item \textbf{Giao thông:} Nhận diện biển số xe tại trạm thu phí không dừng.
+    \item \textbf{Nông nghiệp:} Phân loại sản phẩm theo trọng lượng và ký hiệu viết tay.
+\end{itemize}
+\subsubsection{Hướng phát triển}
+\begin{itemize}
+    \item \textbf{Tích hợp AI Edge:} Kết hợp FPGA với vi điều khiển (VD: Xilinx Zynq UltraScale+).
+    \item \textbf{Nâng cấp mô hình:} Thử nghiệm với kiến trúc MobileNetV3 hoặc Transformer tối ưu.
+    \item \textbf{Pipeline hóa:} Chia các lớp CNN thành các stage độc lập để tăng throughput.
+\end{itemize}
+
+\subsection{Kế hoạch thực hiện}
+
+\begin{figure}[H]
+    \begin{center}
+        \begin{ganttchart}[
+        x unit=0.9cm, % Horizontal scaling
+        y unit title=0.7cm, % Vertical scaling for title
+        y unit chart=0.7cm, % Vertical scaling for chart
+        vgrid={*1{draw=none}, *1{dotted}}, % Vertical grid lines
+        hgrid, % Horizontal grid lines
+        title/.style={draw=none, fill=none}, % Title style
+        title label font=\bfseries\footnotesize, % Title font
+        bar/.style={fill=blue!20, draw=blue!50}, % Bar style
+        bar height=0.6, % Bar height
+        group/.style={fill=green!20, draw=green!50}, % Group style
+        group height=0.3, % Group height
+        group peaks width=0.2, % Group peaks width
+        milestone/.style={fill=red, draw=red!50}, % Milestone style
+        milestone label font=\bfseries\footnotesize % Milestone label font
+    ]{1}{14} % Time range (1 to 12 months)
+    
+        % Title
+        \gantttitle{HK242}{15} \\
+        \gantttitlelist{1,...,14}{1} \\
+    
+        % Tasks
+        \ganttgroup{Giai đoạn 1}{1}{4} \\
+        \ganttbar{Tìm hiểu đề tài}{1}{2} \\
+        \ganttbar{Tạo mô hình AI}{3}{4} \\
+        \ganttmilestone{Báo cáo 33\%}{4} \\
+    
+        \ganttgroup{Giai đoạn 2}{5}{11} \\
+        \ganttbar{Thiết kế phần cứng}{5}{8} \\
+        \ganttbar{Thử nghiệm kiểm tra}{9}{11} \\
+        \ganttmilestone{Báo cáo 66\%}{11} \\
+    
+        \ganttgroup{Giai đoạn 3}{12}{14} \\
+        \ganttbar{Giao tiếp ngoại vi}{12}{13} \\
+        \ganttbar{Đánh giá \& hoàn tất}{14}{14} \\
+        \ganttmilestone{Bảo vệ}{14} \\
+    
+    \end{ganttchart}
+    \caption{Biểu đồ Gantt thời gian dự án}
+    \label{fig:enter-label}
+    \end{center}
+    
+\subsection{Kết luận}
+Đề tài kết hợp giữa \textbf{AI và thiết kế phần cứng}, mở ra hướng nghiên cứu tối ưu hiệu năng cho các bài toán nhận diện trong điều kiện tài nguyên hạn chế.
+
+\end{figure}
