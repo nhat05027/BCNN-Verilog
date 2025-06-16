@@ -1,0 +1,324 @@
+
+
+\documentclass[a4paper]{article}
+\usepackage{vntex}
+%\usepackage[english,vietnam]{babel}
+\usepackage[utf8]{inputenc}
+%\usepackage[utf8]{inputenc}
+%\usepackage[francais]{babel}
+\usepackage{a4wide,amssymb,epsfig,latexsym,array,hhline,fancyhdr}
+\usepackage{circuitikz}
+\usepackage{pgfgantt} % Required for creating Gantt charts
+\usepackage[normalem]{ulem}
+%\usepackage{soul}
+\usepackage{pdflscape}
+% \usepackage{booktabs}
+% \usepackage{tabularx}
+\usepackage[makeroom]{cancel}
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{multicol,longtable,amscd}
+\usepackage{diagbox}%Make diagonal lines in tables
+\usepackage{booktabs}
+\usepackage{alltt}
+\usepackage{caption,subcaption}
+\usepackage{lastpage}
+\usepackage[lined,boxed,commentsnumbered]{algorithm2e}
+\usepackage{enumerate}
+\usepackage{graphicx}							% Standard graphics package
+\usepackage{array}
+\usepackage{multirow}
+\usepackage{multicol}
+\usepackage{rotating}
+\usepackage{graphics}
+\usepackage{geometry}
+%\usepackage{hyperref}
+\usepackage{setspace}
+\usepackage{epsfig}
+\usepackage{tikz}
+\usepackage{listings}
+\usepackage{color}
+\usepackage{float}
+\definecolor{barbiepink}{rgb}{0.85,0.09,0.52}
+\definecolor{blackcoffee}{rgb}{0.23,0.18,0.18}
+\definecolor{cgreen}{rgb}{0,0.6,0}
+\definecolor{cgray}{rgb}{0.5,0.5,0.5}
+\definecolor{cpurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}	
+\usetikzlibrary{arrows,snakes,backgrounds}
+\usepackage[unicode]{hyperref}
+\usepackage{pgfplots}
+\pgfplotsset{compat = newest}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=black,
+    filecolor=magenta,      
+    urlcolor=cyan,
+    }
+% \lstset{
+%   breaklines=true,
+%   xleftmargin=25pt,
+%   xrightmargin=25pt,
+%   aboveskip=10pt,
+%   belowskip=10pt,
+%   basicstyle=\ttfamily,
+%   backgroundcolor=\color{lightgray},
+%   showstringspaces=false,
+%   frame=ltrb,
+%   language=python,
+%   tabsize=2,
+%   numbers=left,
+%   numberstyle=\small,
+%   numbersep=8pt,
+%   morekeywords={*, factorial, sum, erlang},
+%   keywordstyle=\color{purple}\textbf,
+%   commentstyle=\color{blue}\textit,
+%   stringstyle=\color{red}
+% }
+\usepackage{xcolor}
+% \usepackage[utf8]{vietnam}
+\lstdefinestyle{pythonstyle}{
+    language=Python,
+    basicstyle=\ttfamily\small,
+    keywordstyle=\color{blue!70!black},
+    commentstyle=\color{green!50!black},
+    stringstyle=\color{red!80!black},
+    showstringspaces=false,
+    breaklines=true,
+    frame=leftline,
+    rulecolor=\color{gray!30},
+    numbers=left,
+    numberstyle=\tiny\color{gray!50},
+    tabsize=4,
+    captionpos=b,
+    morekeywords={tf, custom_gradient, sign}
+}
+\lstdefinestyle{verilog-style}{
+    language=Verilog,
+    basicstyle=\ttfamily\small,
+    backgroundcolor=\color{white},
+    commentstyle=\color{gray}\itshape,
+    keywordstyle=\color{blue}\bfseries,
+    stringstyle=\color{red},
+    numbers=left,
+    numberstyle=\tiny\color{gray},
+    stepnumber=1,
+    numbersep=5pt,
+    showstringspaces=false,
+    breaklines=true,
+    frame=single,
+    rulecolor=\color{lightgray},
+    captionpos=b,
+    tabsize=4,
+    belowcaptionskip=12pt,
+    aboveskip=12pt
+}
+\renewcommand{\lstlistingname}{Code} 
+
+\usepackage{colortbl}
+\definecolor{convcolor}{RGB}{230, 240, 255}
+\definecolor{poolcolor}{RGB}{255, 230, 240}
+\definecolor{densecolor}{RGB}{230, 255, 240}
+
+\def\thesislayout{	% A4: 210 × 297
+	\geometry{
+		a4paper,
+		total={160mm,240mm},  % fix over page
+		left=30mm,
+		top=30mm,
+	}
+}
+
+
+%\usepackage{fancyhdr}
+\setlength{\headheight}{40pt}
+\setlength{\parindent}{4pt}
+\pagestyle{fancy}
+\fancyhead{} % clear all header fields
+\fancyhead[L]{
+ \begin{tabular}{rl}
+    \begin{picture}(25,15)(0,0)
+    \put(0,-8){\includegraphics[width=8mm, height=8mm]{Images/hcmut.png}}
+    %\put(0,-8){\epsfig{width=10mm,figure=hcmut.eps}}
+   \end{picture}&
+	%\includegraphics[width=8mm, height=8mm]{hcmut.png} & %
+	\begin{tabular}{l}
+		\textbf{\bf \ttfamily Trường Đại Học Bách Khoa Tp.Hồ Chí Minh}\\
+		\textbf{\bf \ttfamily Khoa Điện-Điện tử}
+	\end{tabular} 	
+ \end{tabular}
+}
+\fancyhead[R]{
+	\begin{tabular}{l}
+		 \bf \\
+		\bf 
+	\end{tabular}  }
+\fancyfoot{} % clear all footer fields
+\fancyfoot[L]{\scriptsize \ttfamily Đồ án 1 Kỹ thuật Điện tử- Viễn thông (EE3183)- HK242}
+\fancyfoot[R]{\scriptsize \ttfamily Trang {\thepage}/\pageref{LastPage}}
+\renewcommand{\headrulewidth}{0.3pt}
+\renewcommand{\footrulewidth}{0.3pt}
+
+
+%%%
+
+
+
+\sloppy
+\numberwithin{figure}{section}
+\captionsetup[figure]{labelfont={small,bf},textfont={small,it},belowskip=-1pt,aboveskip=5pt}
+\captionsetup[table]{labelfont={small,bf},textfont={small,it},belowskip=-1pt,aboveskip=7pt}
+\setlength{\floatsep}{5pt plus 2pt minus 2pt}
+\setlength{\textfloatsep}{5pt plus 2pt minus 2pt}
+\setlength{\intextsep}{10pt plus 2pt minus 2pt}
+
+\thesislayout
+\renewcommand{\baselinestretch}{1.5}
+\begin{document}
+\large
+\begin{titlepage}
+\begin{center}
+\textbf{\large ĐẠI HỌC QUỐC GIA THÀNH PHỐ HỒ CHÍ MINH} \\
+\textbf{\large TRƯỜNG ĐẠI HỌC BÁCH KHOA} \\
+\textbf{\large KHOA ĐIỆN-ĐIỆN TỬ} \\
+\textbf{\large BỘ MÔN ĐIỆN TỬ} \\
+% \textbf{\large BỘ MÔN ĐIỆN TỬ} 
+\end{center}
+\begin{figure}[h!]
+\begin{center}
+\includegraphics[width=7cm]{Images/hcmut.png}
+\end{center}
+\end{figure}
+
+\vspace{1cm}
+\begin{center}
+\begin{tabular}{c}
+{\textbf{{\Large ĐỒ ÁN 1}}}\\
+{\textbf{{\Large KỸ THUẬT ĐIỆN TỬ- VIỄN THÔNG}}}\\
+~~\\
+\hline
+\\
+\textbf{\large ĐỀ TÀI} \\
+\textbf{\LARGE NHẬN DIỆN SỐ VIẾT TAY BẰNG FPGA} \\
+\textbf{\large (FPGA-BASED HANDWRITTEN DIGIT RECOGNITION)} \\
+\\
+\hline
+\end{tabular}
+\end{center}
+
+\vspace{1cm}
+
+\begin{table}[h]
+\begin{tabular}{rrlr}
+\hspace{5 cm} & \large GVHD: & \large THS. NGUYỄN TUẤN HÙNG\\
+
+& \large SV thực hiện: &\large HOÀNG SỸ NHẤT & 2111915\\
+
+\end{tabular}
+\end{table}
+\vspace{1.5cm}
+\begin{center}
+{\bf Thành phố Hồ Chí Minh, Tháng 05/2025}
+\end{center}
+\end{titlepage}
+
+
+%\thispagestyle{empty}
+\newpage
+\begin{center}
+    \section*{LỜI CẢM ƠN}
+\end{center}
+
+\hspace{1cm}Đầu tiên, em xin gửi lời cảm ơn đến tất cả các thầy cô trong Bộ Môn Điện Tử đã nhiệt tình dạy dỗ, truyền đạt kiến thức để em có thể tự tin làm và hoàn thành tốt đồ án này.
+
+\hspace{1cm}Tiếp theo, em cũng xin cảm ơn chân thành đến thầy Nguyễn Tuấn Hùng đã định hướng, giúp đỡ em nhiệt tình, hết mình để em có thể hoàn thành đồ án. Nhờ có sự giúp đỡ nhiệt tình của thầy mà em đã giải quyết được các vướng mắc xảy ra trong quá trình thực hiện. Những thắc mắc của em đều được thầy chỉ dạy tận tình, chu đáo.
+
+\hspace{1cm}Cuối cùng em cũng xin cảm ơn các bạn trong Khoa Điện-Điện Tử trường Đại Học Bách Khoa Thành Phố Hồ Chí Minh cũng đã giúp đỡ, trao đổi, thảo luận với em những gì mà em chưa biết để có thể hoàn thành tốt đồ án.
+
+\hspace{1cm}Dù đã cố gắng nhưng cũng không tránh khỏi sai sót, mong được Quý thầy cô xem qua và chỉ bảo thêm để em có thêm kinh nghiệm hoàn thành tốt hơn nữa các đề tài sau này. 
+
+\hspace{1cm}Đây là hành trang kiến thức vô cùng quý báu mà em được Quý thầy cô khoa Điện-Điện Tử trường Đại Học Bách Khoa Thành Phố Hồ Chí Minh đã giúp đỡ, đã trang bị cho em. Để sau này, tốt nghiệp ra trường em có thể vận dụng những kiến thức trên vào trong công việc thực tế của em sau này.
+
+\hspace{1cm}Em xin chân thành cảm ơn
+
+
+\newpage
+\tableofcontents
+
+\newpage
+\listoffigures
+
+\newpage
+\listoftables
+
+\newpage
+\input{describe}
+\newpage
+\input{cnnmodel}
+\newpage
+\input{hardware}
+\newpage
+\input{test}
+\newpage
+\section{ĐÁNH GIÁ CHUNG VÀ KẾT LUẬN}
+Sau thời gian thực hiện đồ án, em có những đánh giá và kết luận chung sau khi hoàn thành như sau:
+\begin{itemize}
+    \item Về những kết quả thu được:
+    \begin{itemize}
+        \item \textbf{Thiết kế hệ thống phần cứng}: Đã thành thạo quy trình thiết kế hệ thống trên FPGA, bao gồm phân tích yêu cầu, chia module chức năng (LCD driver, UART controller, CNN) và triển khai bằng Verilog/SystemVerilog.
+        \item \textbf{Mô phỏng và kiểm tra}: Làm chủ công cụ mô phỏng (ModelSim/Xcelium) để verify chức năng các module, phát hiện lỗi timing thông qua testbench tự động và phân tích waveform.
+        \item \textbf{Nâng cao kỹ năng tích hợp}: Rèn luyện khả năng tích hợp đa module (kết hợp phần cứng-phần mềm), xử lý giao tiếp UART, điều khiển VGA và tối ưu hóa pipeline cho bộ suy luận CNN.
+    \end{itemize}
+    
+    \item Về những hạn chế còn tồn đọng:
+    \begin{itemize}
+
+        \item \textbf{Thời gian xử lý}: Thời gian xử lý còn chậm so với các model cùng chức năng khác.
+        \item \textbf{Tối ưu tài nguyên}: Chưa khai thác hiệu quả BRAM/DSP slices trên FPGA, dẫn đến lãng phí tài nguyên và hạn chế tốc độ xử lý.
+        \item \textbf{Chưa xử lý lỗi thời gian thực}: Thiếu cơ chế phục hồi khi gặp lỗi giao tiếp UART hoặc mất đồng bộ tín hiệu VGA, gây treo hệ thống.
+    \end{itemize}
+\end{itemize}
+
+Qua những đánh giá trên, bản thân đã:
+\begin{itemize}
+    \item[+] Tiếp thu sâu về kiến trúc FPGA và phương pháp thiết kế RTL
+    \item[+] Phát triển tư duy hệ thống thông qua tích hợp đa thành phần
+    \item[+] Nhận thức rõ tầm quan trọng của timing closure và power analysis
+\end{itemize}
+
+Tuy nhiên, cần khắc phục ngay:
+\begin{itemize}
+    \item[--] Bổ sung kỹ thuật timing constraints (SDC) để đảm bảo Fmax
+    \item[--] Nâng cao kỹ năng debug bằng công cụ của tool và giả lập.
+    \item[--] Xây dựng testbench coverage-driven cho các trường hợp biên
+\end{itemize}
+
+\newpage
+\section{TÀI LIỆU THAM KHẢO}
+
+\begin{thebibliography}{9999}
+\bibitem{hubara2016binarized}
+Hubara, I., Courbariaux, M., Soudry, D., \& El-Yaniv, R. (2016). "Binarized Neural Networks". \textit{Advances in Neural Information Processing Systems} (NIPS).
+
+\bibitem{umuroglu2017finn}
+Umuroglu, Y., et al. (2017). "FINN: A Framework for Fast, Scalable Binarized Neural Network Inference". \textit{ACM/SIGDA International Symposium on FPGAs}.
+
+\bibitem{lecun1998gradient}
+LeCun, Y., Bottou, L., Bengio, Y., \& Haffner, P. (1998). "Gradient-Based Learning Applied to Document Recognition". \textit{Proceedings of the IEEE}.
+
+
+\bibitem{altera2024optimized}
+Intel FPGA (2024). "Optimized CNN Acceleration for Cyclone V FPGAs". \textit{Intel White Paper WP-01234}.
+
+\bibitem{rastegari2016xnor}
+Rastegari, M., et al. (2016). "XNOR-Net: ImageNet Classification Using Binary Convolutional Neural Networks". \textit{European Conference on Computer Vision (ECCV)}.
+
+\bibitem{mnist1998}
+Yann LeCun \& Corinna Cortes. (1998). "The MNIST Database of Handwritten Digits". [Online]. Available: http://yann.lecun.com/exdb/mnist/
+
+\bibitem{verilog2005standard}
+IEEE Standard 1364-2005 (2005). \textit{IEEE Standard for Verilog Hardware Description Language}.
+\end{thebibliography}
+
+\end{document}
